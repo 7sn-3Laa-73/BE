@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YLY Jigsaw Puzzle - Billo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Assemble Billo!</h1>
+    <div id="puzzle-container">
+      <!-- الخانات التي سيتم تجميع الصورة فيها -->
+      <div class="drop-zone" id="zone-1"></div>
+      <div class="drop-zone" id="zone-2"></div>
+      <div class="drop-zone" id="zone-3"></div>
+      <div class="drop-zone" id="zone-4"></div>
+      <div class="drop-zone" id="zone-5"></div>
+      <div class="drop-zone" id="zone-6"></div>
+      <div class="drop-zone" id="zone-7"></div>
+      <div class="drop-zone" id="zone-8"></div>
+      <div class="drop-zone" id="zone-9"></div>
+      <div class="drop-zone" id="zone-10"></div>
+      <div class="drop-zone" id="zone-11"></div>
+      <div class="drop-zone" id="zone-12"></div>
+      <div class="drop-zone" id="zone-13"></div>
+      <div class="drop-zone" id="zone-14"></div>
+      <div class="drop-zone" id="zone-15"></div>
+      <div class="drop-zone" id="zone-16"></div>
+    </div>
+
+    <div id="pieces-container">
+      <!-- القطع المتناثرة -->
+      <img src="BELLO/new_piece_1.png" id="piece-1" class="piece" draggable="true">
+      <img src="BELLO/new_piece_2.png" id="piece-2" class="piece" draggable="true">
+      <img src="BELLO/new_piece_3.png" id="piece-3" class="piece" draggable="true">
+      <img src="BELLO/new_piece_4.png" id="piece-4" class="piece" draggable="true">
+      <img src="BELLO/new_piece_5.png" id="piece-5" class="piece" draggable="true">
+      <img src="BELLO/new_piece_6.png" id="piece-6" class="piece" draggable="true">
+      <img src="BELLO/new_piece_7.png" id="piece-7" class="piece" draggable="true">
+      <img src="BELLO/new_piece_8.png" id="piece-8" class="piece" draggable="true">
+      <img src="BELLO/new_piece_9.png" id="piece-9" class="piece" draggable="true">
+      <img src="BELLO/new_piece_10.png" id="piece-10" class="piece" draggable="true">
+      <img src="BELLO/new_piece_11.png" id="piece-11" class="piece" draggable="true">
+      <img src="BELLO/new_piece_12.png" id="piece-12" class="piece" draggable="true">
+      <img src="BELLO/new_piece_13.png" id="piece-13" class="piece" draggable="true">
+      <img src="BELLO/new_piece_14.png" id="piece-14" class="piece" draggable="true">
+      <img src="BELLO/new_piece_15.png" id="piece-15" class="piece" draggable="true">
+      <img src="BELLO/new_piece_16.png" id="piece-16" class="piece" draggable="true">
+    </div>
+
+    <button id="check-button">Check Puzzle</button>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <div id="popup-message"></div>
+    <button id="close-popup">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
